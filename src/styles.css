@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.ql-picker.ql-size .ql-picker-label[data-value="10px"]::before,
+.ql-picker.ql-size .ql-picker-item[data-value="10px"]::before {
+    content: 'Small' !important;
+}
+.ql-picker.ql-size .ql-picker-label[data-value='']::before,
+.ql-picker.ql-size .ql-picker-item[data-value='']::before {
+    content: 'Normal';
+}
+.ql-picker.ql-size .ql-picker-label[data-value="18px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before {
+    content: 'Large' !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="32px"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="32px"]::before {
+    content: 'Huge' !important;
+}
